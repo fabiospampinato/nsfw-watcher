@@ -3,6 +3,7 @@
 
 import * as nsfw from 'nsfw';
 import * as path from 'path';
+import {Event, Options, Handlers, Listener} from './types';
 
 /* WATCHER */
 

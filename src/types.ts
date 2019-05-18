@@ -45,3 +45,7 @@ type Listener = {
   start (): Promise<void>,
   stop (): Promise<void>
 };
+
+/* EXPORT */
+
+export {EventAdd, EventUnlink, EventChange, EventRename, Event, Options, Handlers, Listener};
